@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+    .container {
+      display: grid;
+      grid-template-columns: 320px 198px 153px 50px;
+      grid-template-rows: 414px 130px 155px 20px;
+      width: 748px;
+      height: 748px;
+    
+      
+
+    }
+    .ele-1 {
+      background-color: #E72F24;
+      order: 1;
+      border-right: #232629 solid 9px;
+      border-bottom: #232629 solid 9px;
+    }
+    .ele-2 {
+      background-color: #004592;
+      order: 5;
+      border-bottom: #232629 solid 5px;
+    }
+    .ele-3 {
+      background-color: black;
+      order: 9;
+    }
+    .ele-4 {
+      background-color: #F9D01E;
+      order: 8;
+      border-right: #232629 solid 9px;
+    }
+    .ele-5 {
+      background-color: #F0F1EC;
+      order: 2;
+      grid-column: span 3;
+      border-bottom: #232629 solid 9px;
+    }
+    .ele-6 {
+      background-color: #F0F1EC;
+      order: 3;
+      grid-row: span 2;
+      border-right: #232629 solid 9px;
+      border-bottom: #232629 solid 9px;
+    }
+    .ele-7 {
+      background-color: #F0F1EC;
+      order: 4;
+      grid-column: span 2;
+      grid-row: span 2;
+      border-bottom: #232629 solid 9px;
+      border-right: #232629 solid 9px;
+    }
+    .ele-8 {
+      background-color: #F0F1EC;
+      order: 6;
+      grid-row: span 2;
+      border-top: #232629 solid 10px;
+      
+    }
+    .ele-9 {
+      background-color: #F0F1EC;
+      order: 7;
+      border-right: #232629 solid 9px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Write your HTML here -->
+  <div class="container">
+     <div class="ele-1"></div>
+     <div class="ele-2"></div>
+     <div class="ele-3"></div>
+     <div class="ele-4"></div>
+     <div class="ele-5"></div>
+     <div class="ele-6"></div>
+     <div class="ele-7"></div>
+     <div class="ele-8"></div>
+     <div class="ele-9"></div>
+
+  </div>
+</body>
+
+</html>
