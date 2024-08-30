@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    background-image: url(../assets/images/ba55dd6b-5d33-4998-bd4a-9c503525f732.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center-center;
+    text-align: center;
+}
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container {
+    width: 100%;
+}
+.icone {
+    display: flex;
+    justify-content: center;
+    margin-left: 25px;
+    gap: 10px;
+}
+.topo {
+    display: flex;
+    justify-content: space-between;
+    background-color:  #23303d;
+    justify-content: center;
+    align-items: center;
+    color: #fffffff4;
+    font-size: 1.5rem;
+    height: 55px;
+    
+}
+.icone svg {
+    fill: #fffffffa;
+    margin-top: 13px;
+}
+.icone p {
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.lista-topo {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    gap: 100px;
+    
+}
+.intro p {
+    font-family: serif;
+    font-weight: 200;
+
+}
+li {
+    list-style-type: none;
+    font-size: 1.0rem;
+
+    padding: 10px;
+    color: #ffffffa8;
+    font-family: serif;
+}
+
+.li-contato {
+    display: flex;
+}
+.quadrado-icone {
+    background-color: #141c24;
+    padding: 10px;
+}
+.quadrado-palavra {
+    background-color: #23303d;
+    padding: 10px;
+}
+.titulo {
+    position: relative;
+    top: px;
+    right: 80px;
+    color: azure;
+    font-size: 2.5rem;
+}
+.titulo-2 {
+    position: relative;
+    float: right;
+    right: 30px;
+    bottom: 90px;
+    width: 30px;
+    color: azure;
+    font-size: 1.5rem;
+}
